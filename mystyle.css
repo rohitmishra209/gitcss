@@ -1,7 +1,19 @@
+body{
+    background-color: #CCCCCC;
+    padding: 0px;
+    margin: 0px;
+}
+
+.wapper{
+    height: auto;
+    width: auto;
+}
+
 .header{
     background-color: #5F5F5F;
     width: auto;
-    height: 20%;
+    height: 122px;
+    margin:0px 0px 20px 0px;
 
 }
 
@@ -15,115 +27,79 @@
 
 .header .menu {
 
-   background-color: red;
-   float: right;
-   margin-right: 2%;
-   margin-top: 2%;
-   width: 13%;
+    background-color: red;
+    float: right;
+    margin:2% 2% 0 0;
+    width: 13%;
 
 }
-
 
 .left{
-
     background-color: #008F95;
     float: left;
-    margin-left: 3%;
-    margin-top: 2%;
-    width: 10%;
-    height: 55%;
-
+    margin: 20px 0 10px 15px;
+    width: 140px;
+    height: 80px;
 }
-
 
 .left p{
+    margin: 0px;
+}
 
- margin-top: 0%;
-
+.section p{
+    margin: 0px;
+}
+.blocks p{
+    margin: 0px;
 }
 
 
-.section{
-
-    background-color: #CCCCCC;
-    width:auto;
-    height: 90%;
-    margin-top: -1%;
-
-}
-
-
-.sectionleft{
-
+.section .sectionleft{
     background-color: #F4BD88;
-    position: relative;
-    top: 20px;
-    width: 20%;
-    height: 70%;
-
+    width: 165px;
+    height: 330px;
+    float: left;
 
 }
 
 
-.sectionright{
-
+.section .sectionright{
     background-color: #D3F79B;
-    float: right;
-    top: 20px;
-    width: 78%;
-    height: 69%;
-    margin-top:-31%;
+    width: 88%;
+    height: 330px;
+    float: left;
+    margin-left: 13px;
 
 }
 
+.blocks{
+    background-color: yellow;
+    height:250px;
+    width: 100%;
+    margin-top: 370px;
 
-.sectioncontent{
-
-    margin-top: 0%;
 
 }
-
 
 .blocks div{
-
-    background-color: #F6B2DF;
-    margin-top: 32px;
-    height: 70%;
-    width: 20%;
+    background-color: pink;
+    height: 120px;
+    width: 168px;
     display: inline-block;
-    margin-left: 8%;
+    margin: 20px 0 0 280px;
 
 }
 
 
-.blocks {
-
-    background-color: #DCEF3B;
-    margin-top: 32px;
-    height: 30%;
-    width: 100%;
-    display: inline-block;
-
-}
-
-.blocks p {
-    margin-top: 0%;
-
-}
-
-
-.footer{
+.footer {
     background-color: #666666;
     width: 100%;
-    height: 10%;
-    margin-top: -1%;
-
+    height: 70px;
+    margin-top: -15px;
 }
 
 
-.footer p{
-
-    padding-left: 48%;
+.footer p {
+    padding-left: 46%;
     padding-top: 2%;
-
 }
