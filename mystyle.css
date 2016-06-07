@@ -1,0 +1,129 @@
+.header{
+    background-color: #5F5F5F;
+    width: auto;
+    height: 20%;
+
+}
+
+
+.header .menu li{
+
+    display: inline-block;
+
+}
+
+
+.header .menu {
+
+   background-color: red;
+   float: right;
+   margin-right: 2%;
+   margin-top: 2%;
+   width: 13%;
+
+}
+
+
+.left{
+
+    background-color: #008F95;
+    float: left;
+    margin-left: 3%;
+    margin-top: 2%;
+    width: 10%;
+    height: 55%;
+
+}
+
+
+.left p{
+
+ margin-top: 0%;
+
+}
+
+
+.section{
+
+    background-color: #CCCCCC;
+    width:auto;
+    height: 90%;
+    margin-top: -1%;
+
+}
+
+
+.sectionleft{
+
+    background-color: #F4BD88;
+    position: relative;
+    top: 20px;
+    width: 20%;
+    height: 70%;
+
+
+}
+
+
+.sectionright{
+
+    background-color: #D3F79B;
+    float: right;
+    top: 20px;
+    width: 78%;
+    height: 69%;
+    margin-top:-31%;
+
+}
+
+
+.sectioncontent{
+
+    margin-top: 0%;
+
+}
+
+
+.blocks div{
+
+    background-color: #F6B2DF;
+    margin-top: 32px;
+    height: 70%;
+    width: 20%;
+    display: inline-block;
+    margin-left: 8%;
+
+}
+
+
+.blocks {
+
+    background-color: #DCEF3B;
+    margin-top: 32px;
+    height: 30%;
+    width: 100%;
+    display: inline-block;
+
+}
+
+.blocks p {
+    margin-top: 0%;
+
+}
+
+
+.footer{
+    background-color: #666666;
+    width: 100%;
+    height: 10%;
+    margin-top: -1%;
+
+}
+
+
+.footer p{
+
+    padding-left: 48%;
+    padding-top: 2%;
+
+}
